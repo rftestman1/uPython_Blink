@@ -11,7 +11,7 @@ def main():
             print('LED Off')
         else:
             led.on()
-            print('LED on')
+            print('LED On')
         utime.sleep_ms(1000)
         enabled = not enabled
 
