@@ -8,10 +8,10 @@ def main():
     while True:
         if enabled:
             led.off()
-            print('LED Off')
+            print('LED off')
         else:
             led.on()
-            print('LED On')
+            print('LED on')
         utime.sleep_ms(1000)
         enabled = not enabled
 
